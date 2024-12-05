@@ -1,0 +1,8 @@
+langchain
+langchain-openai
+langchain-community
+streamlit
+pandas
+pdfplumber
+tabula-py
+# yaml
