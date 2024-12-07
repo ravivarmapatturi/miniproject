@@ -1,2 +1,4 @@
 default-jre
 default-jdk
+sqlite3
+libsqlite3-dev
