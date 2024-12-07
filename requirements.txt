@@ -6,4 +6,4 @@ pandas
 pdfplumber
 tabula-py
 chromadb==0.4.4
-# yaml
+pysqlite3-binary
