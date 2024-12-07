@@ -1,3 +1,6 @@
+__import__('pysqlite3')  # Import the pysqlite3 module
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 import os
 import yaml 
 from langchain_core.documents import Document
