@@ -5,5 +5,5 @@ streamlit
 pandas
 pdfplumber
 tabula-py
-chromadbchromadb==0.4.4
+chromadb==0.4.4
 # yaml
