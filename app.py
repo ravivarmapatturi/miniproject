@@ -36,10 +36,10 @@ def extracting_tabular_data(path):
     return extracted_tabular
 
 # Load API keys
-with open("./credentials/api_keys.yaml") as file:
-    config = yaml.safe_load(file)
-api_keys = config['api_keys']["chatgpt"]
-os.environ["OPENAI_API_KEY"] = api_keys
+# with open("./credentials/api_keys.yaml") as file:
+#     config = yaml.safe_load(file)
+# api_keys = config['api_keys']["chatgpt"]
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 # Streamlit UI setup
 st.set_page_config(page_title="File QA Chatbot", page_icon="🤖")
