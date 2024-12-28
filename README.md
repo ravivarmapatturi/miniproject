@@ -41,7 +41,7 @@ This repository contains a QA RAG (Retrieval-Augmented Generation) chat applicat
 3. **Set Up Environment**:
     Create a `.env` file for storing your API keys and other sensitive information:
     ```bash
-    touch .env
+    os.environ["OPENAI_API_KEY"]= your api key
     ```
     Add the required keys to the `.env` file.
 
