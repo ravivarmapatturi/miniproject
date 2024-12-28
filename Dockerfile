@@ -8,5 +8,3 @@ COPY . .
 # ENTRYPOINT ["streamlit", "run"]
 ENTRYPOINT ["streamlit", "run", "app.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
-
-# 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
